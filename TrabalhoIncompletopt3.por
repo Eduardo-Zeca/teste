@@ -41,7 +41,7 @@ programa
 
 			inteiro dezena = 0
 			 
-			escreva("***** Valor das apostas: *****\n")
+			escreva("***** Valor das Apostas: *****\n")
 			escreva("*****    6 - R$4,50      *****\n")
 			escreva("*****    7 - R$31,50     *****\n")
 			escreva("*****    8 - R$126,00    *****\n")
@@ -53,7 +53,7 @@ programa
 			escreva("*****   14 - R$13.513,50 *****\n")
 			escreva("*****   15 - R$22.522,50 *****\n")			
 			
-			escreva("\n*** Quantas dezenas deseja apostar? ***\n")
+			escreva("\n**** Quantas dezenas deseja apostar? ****\n")
 			leia(dezena)
 			enquanto(dezena < 6 ou dezena > 15){
 				escreva("Só é possível apostar de 6 a 15 dezenas. Tente novamente: \n")
@@ -118,8 +118,60 @@ programa
 
 		 escreva("Você gastou um total de: R$", valorGasto)
 
-	
+		 caso 2:
+		 inteiro dezenas2
+		 inteiro num_Apostas
+		 
+		 escreva("***** Valor das Apostas: *****\n")
+		 escreva("******************************\n")
+		 escreva("*****    5 - R$2,00      *****\n")
+		 escreva("*****    6 - R$12,00     *****\n")
+		 escreva("*****    7 - R$42,00     *****\n")
+		 escreva("*****    8 - R$112,00    *****\n")
+		 escreva("*****    9 - R$252,00    *****\n")
+		 escreva("*****   10 - R$504,00    *****\n")
+		 escreva("*****   11 - R$924,00    *****\n")
+		 escreva("*****   12 - R$1.584,00  *****\n")
+		 escreva("*****   13 - R$2.574,00  *****\n")
+		 escreva("*****   14 - R$4.004,00  *****\n")
+		 escreva("*****   15 - R$6.006,00  *****\n")
 
+		 escreva("\n***** Quantas dezenas deseja apostar? *****\n")
+		 leia(dezenas2)
+		 enquanto(dezenas2 < 5 ou dezenas2 > 15){
+		 	escreva("Só é possível apostar de 5 a 15 dezenas. Tente novamente: \n")
+		 	escreva("\n**** Quantas dezenas deseja apostar? ****\n")
+		 	leia(dezenas2)
+		 }
+
+		 escreva("Quantas apostas deseja fazer? \n")
+		 leia(num_Apostas)
+		 limpa()
+
+
+		 caso 3:
+		 inteiro dezenas = 50
+		 inteiro num_apostas = 0
+
+		 escreva("**** Na Lotomania, o número de dezenas é fixo em 50 ****\n")
+		 escreva("\n**** Valor da aposta: ****\n")
+		 escreva("****     50 - R$2,50   ****\n")
+		 escreva("\n**** Quantas apostas deseja fazer? ****\n")
+		 leia(num_apostas)
+		 limpa()
+
+
+		 caso 4:
+		 inteiro Dezenas
+		 inteiro num_aposta = 0
+
+		 escreva("***** Valor das apostas: *****\n")
+		 escreva("*****   15 - R$2,50      *****\n")
+		 escreva("*****   16 - R$40,00     *****\n")
+		 escreva("*****   17 - R$340,00    *****\n")
+		 escreva("*****   18 - R$2.040,00  *****\n")
+		 escreva("*****   19 - R$9.690,00  *****\n")
+		 escreva("*****   20 - R$38.760,00 *****\n")
 		}
 		
 	}
@@ -129,7 +181,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2744; 
+ * @POSICAO-CURSOR = 4711; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
